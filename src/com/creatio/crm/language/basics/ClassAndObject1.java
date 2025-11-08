@@ -8,6 +8,9 @@ public class ClassAndObject1 {
 
 	public static void main(String[] args) {
 
+		ClassAndObject1 obj = new ClassAndObject1();
+		
+		System.out.println(obj.empName);
 	}
 
 }

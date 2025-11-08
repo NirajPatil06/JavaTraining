@@ -64,7 +64,8 @@ public class ArrayConcepts {
 		String[][][] company = { { { "101", "Alice", "HR" }, { "102", "Bob", "IT" } },
 				{ { "201", "David", "Finance" }, { "202", "Eva", "Marketing" } } };
 		
-		
+		System.out.println(company[1][1][0]);
+		System.out.println();
 		// Approach 2
 		
 		String [][][] companyData = new String [4][3][3];

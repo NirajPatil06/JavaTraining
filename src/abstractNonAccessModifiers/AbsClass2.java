@@ -10,7 +10,10 @@ public class AbsClass2 extends AbsClass1 {
 
 	@Override
 	public void printEmpNameAndId(String empName, int empId) {
+		// TODO Auto-generated method stub
 		
 	}
+
+	
 
 }

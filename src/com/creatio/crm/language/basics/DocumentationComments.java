@@ -17,6 +17,8 @@ public class DocumentationComments {
 	 * @version - 1.0
 	 * @throws InterruptedException 
 	 * @throws - NullPointerException
+	 * @author Niraj Patil
+	 * 
 	 */
 	public static double CalculateIntrest(int amount, int months, double intrest) throws InterruptedException {
 		Thread.sleep(2000);
@@ -24,6 +26,7 @@ public class DocumentationComments {
 		return  ToatalIntrest;
 		
 		
-		
+	
 	}
+		
 }

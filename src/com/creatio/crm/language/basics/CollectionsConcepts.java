@@ -91,6 +91,8 @@ public class CollectionsConcepts {
 		studentName.add(null);
 		studentName.get(1);
 		studentName.remove("Yatin");
+		studentName.set(3," Durga");
+		
 		
 		System.out.println("Size of ArrrayList is:"+ studentName.size());
 		System.out.println(studentName);
@@ -140,7 +142,7 @@ public class CollectionsConcepts {
 		Set <String> studentName2 = new HashSet <String>();
 		
 		studentName2.add("Niraj");
-		studentName2.add("Janvi");
+		studentName2.add("Niraj");
 		studentName2.add("Yatin");
 		studentName2.add("Niraj");
 		studentName2.add(null);
@@ -212,7 +214,7 @@ public class CollectionsConcepts {
 		/**********************HashMap*******************/
 		System.out.println("********************HashMap*************************");
 		
-		//Syntax to Initialize: Set<DataType> variable = new HashMap<DataType>();
+		//Syntax to Initialize: Map<DataType> variable = new HashMap<DataType>();
 		//Syntax to add data: variable.add(value);
 		//Syntax to get the data: variable.get(index);
 		//Syntax to remove the data:variable.remove(value);
@@ -234,6 +236,7 @@ public class CollectionsConcepts {
 		HashMapData.put(null,9);
 		HashMapData.put("Niraj",null);
 		HashMapData.remove("Alekya",8);
+		
 //	HashMapData.put(1,"Swapnil");		
 		System.out.println("HashMap Size is : "+HashMapData.size());
 		System.out.println(HashMapData);
@@ -242,7 +245,7 @@ public class CollectionsConcepts {
 		System.out.println("********************LinkedHashMap*************************");
 		
 		//Syntax to Initialize: Set<DataType> variable = new LinkedHashMap<DataType>();
-		//Syntax to add data: variable.add(value);
+		//Syntax to add data: variable.put(value);
 		//Syntax to get the data: variable.get(index);
 		//Syntax to remove the data:variable.remove(value);
 		//Syntax to get the total value : variable.size();
